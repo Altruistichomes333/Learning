@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Listing Platform</title>
+
+  <script src="https://kit.fontawesome.com/7cc9218ac4.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- <div class="container"> -->
+<div class="container-fluid" >
+
+
+     data:image/jpeg;base64,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
+    
+  <header>  
+
+    
+      <div class="logo">
+        <a href="">
+          <img src="https://i.pinimg.com/474x/d4/20/ac/d420ac751563a3d498bd84cdf69386bb.jpg" alt="Company Logo" style="width:20%; height: 20vh;">
+        </a>
+      </div>
+  
+
+<img <a>src="data:image/jpeg;base64,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"></a</div>
+
+
+
+      <h1>ALTRUISTIC HOMES</h1>
+    
+
+    
+      <nav>
+        <ul>
+            <li>
+                <a href="#"> HOUSES</a>
+                <ul class="dropdown">
+                    <li><a href="house.html">NIGERIA</a></li>
+                    <li><a href="#">DIASPORA</a></li>
+                    <!-- <li><a href="#">Dropdown Item 3</a></li> -->
+                    <!-- <li><a href="#">Dropdown Item 4</a></li> -->
+    
+                </ul>
+            </li>
+        
+            <li>
+                <a href="#"> LANDED PROPERTIES</a>
+                <ul class="dropdown">
+                    <li><a href="land.html">NIGERIA</a></li>
+                    <li><a href="#">DIASPORA</a></li>
+                    <!-- <li><a href="#">Dropdown Item 3</a></li> -->
+                    <!-- <li><a href="#">Dropdown Item 4</a></li> -->
+  
+                </ul>
+            </li>
+        
+     
+  <nav>
+    <ul>
+      <li><a href="all.html">ALL PROPERTIES</a></li>
+
+        <li><a href="#">PROMO-PROPERTIES</a></li>
+        <li><a href="#">INQUIRE</a></li>
+        <!-- <li><a href="land.html">NIGERIA PROPERTIES</a></li> -->
+        
+
+   <li><a href="#">SEARCH</a></li>
+   <li><a href="#">BROWSE</a></li>
+        <!-- <li><a href="#">DIASPORA PROPERTIES</a></li> -->
+
+
+      </ul>
+      
+    </div>
+      </nav> 
+      </header> 
+  </div>
+      
+       <br>  <br>  <br>  <br>  <br>  
+
+  
+        
+<!-- <div class="container-fluid2"> -->
+  <div class="login">
+    <a href="login-form.html" class="btn btn-login"><span class="tw1"><i class="fa-solid fa-lock-open"></i></span>Login</a>
+  </div>
+  <div class="get">
+    <a href="form.html" class="btn btn-get"><span class="tw1"><i class="fa-solid fa-user-clock"></i>Get Started</a>
+  </div>
+  </div>
+  <!-- </div> -->
+<!-- </div> -->
+      <br> <br> <br> <br>
+      
+      <div class=" video">  <iframe width="700" height="400" src="https://www.youtube.com/embed/puy61WOKWqE" title="Story of Grit, Determination and Hardwork" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+
+
+
+
+<!-- </div> -->
+
+  <main>
+    <section class="search-section">
+      <h2>Search Properties</h2>
+      <form id="search-form">
+        <input type="text" placeholder="Location" id="location-input">
+        <input type="number" placeholder="Min Price" id="min-price-input">
+        <input type="number" placeholder="Max Price" id="max-price-input">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="property-list-section">
+    
+      <!-- <h2>Available Properties</h2> -->
+      <div id="property-list"></di>
+    <!-- </section> -->
+  </main>
+
+
+
+
+  <div class="container-fluid2" style=" height: 120vh; margin: auto; width: 50%; border-radius: 50%; background-color: rgb(196, 154, 235); text-decoration: none; text-align:center;  color: aliceblue; font-size: larger; font-weight: bold;">
+    <div> <a href="" > Furnished Properties for sale<br><br> Newly Built Properties for sale<br><br> Cheap Properties for sale<br><br> Luxury Properties for sale <br><br>Property for sale between 20milion and 40milion<br><br> Property for sale between 40milion and 60milion<br><br> *Property for sale between 60milion and 80milion* <br><br>   
+    
+<!-- <div class="container-fluid" style=" height: 55vh; color: aliceblue; text-decoration: none; text-align: left; background-color: rgb(166, 135, 195); color: aliceblue; font-size: larger; font-weight: bold;"> -->
+
+    sale between 80milion and 100milion<br><br> *Property for sale between 100milion and 120milion*<br><br> Property for sale between 120milion and 150milion|<br><br> See properties already sold in this area ></a> </div>
+    
+    
+    
+  </div>
+    
+      
+      
+      
+
+
+
+  
+ 
+  <!-- the footer begins here -->
+
+
+
+
+
+
+
+
+
+
+
+<div class="container4">
+    <div class="footer-flex">
+            <div class="list">
+                <li class="fada"><h3>Services</h3></li>
+                <li class="fada"><a href="#">property for sale in Negeria</a></li>
+                <li class="fada"><a href="#"> property for rent in Negeria</a></li>
+                <li class="fada"><a href="#">property for Lease in Negeria</a></li>
+                <li class="fada"><a href="#">Short Let Negeria</a></li>
+                <li class="fada"><a href="#">Apartment for Sale</a></li>
+                <li class="fada"><a href="#">Apartment for rent</a></li>
+                <li class="fada"><a href="#"> Real Estate Academy</a></li>
+                <li class="fada"><a href="#">property Listing</a></li>
+            </div>
+            
+       
+            <div class="list">
+                <li class="fada"><h3>Products</h3></li>
+                <li class="fada"><a href="#">Studio Apartment</a></li>
+                <li class="fada"><a href="#">One-Bedroom Apartment</a></li>
+                <li class="fada"><a href= "#">Two-Bedroom Apartment</a></li>
+                <!-- <li class="fada"><a href="#">ee-Bedroom Apartment</a></li> -->
+                <li class="fada"><a href="#">Loft Apartment</a></li>
+                <li class="fada"><a href="#">Duplex Apartment</a></li>
+                <li class="fada"><a href="#"> Penthouse Apartment</a></li>
+                <li class="fada"><a href="#">Basement Apartment</a></li>
+                <li class="fada"><a href="#">Servised Apartment</a></li>
+                
+            </div>
+                
+        
+            <div class="list">
+                <li class="fada"><h3>Support</h3></li>
+                <li class="fada"><a href="#">Help center</a></li>
+                <li class="fada"><a href="#">Contact us</a></li>
+                <li class="fada"><a href="#">Privacy & terms</a></li>
+                <li class="fada"><a href="#">Cookie policy</a></li>
+                <li class="fada"><a href="#">Cookies & CCPA preferences</a></li>
+                <li class="fada"><a href="#">AI principles</a></li>
+                <li class="fada"><a href="#"> Sitemap</a></li>
+                <li class="fada"><a href="#">Learning resources</a></li>
+                 
+            </div>
+               
+        
+                       <div class="list">
+                <li class="fada"><h3> Community</h3></li>
+                <li class="fada"><a href="#">Partner companies</a></li>
+                <li class="fada"><a href="#">Developers</a></li>
+                <li class="fada"><a href="#">Community forums</a></li>
+                <li class="fada"><a href="#">Referrals</a></li>
+                <li class="fada"><a href="#">Reseller partners</a></li>
+                <li class="fada"><a href="#">Integration partners</a></li>
+             
+            
+        </div>
+ </div> 
+                      <div class="socail"> 
+
+                 <p class="icon"> 
+                <a href=" "><i></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/p/7448545831840816/2347033592895"><i class="fa-brands fa-whatsapp"></i></a>
+
+
+            </p>
+        <!-- </div> -->
+        
+        <div>    
+          <footer>
+            <p>&copy; 2024 Real Estate Listing Platform</p>
+          </footer> 
+          </div>
+
+
+        <div class="english">
+            <p class="eng">
+              
+            <a href="#" class="go"> <i class="fa-solid fa-globe"></i> English (United States)</a>
+            <i class="fa-solid fa-angle-right go"></i>
+            </p>
+                      </div>
+        </div>
+
+<!-- </div> -->
+</div>
+
+
+    
+
+
+
+
+  <script src="Script.js"></script>
+</body>
+</html>
